@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s 14-change_owner_and_group _hello
+chown betty:holberton _hello
