@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Bash script that displays To infinity and beyond indefinitely
-i = 0
-for (( ; i==0; ))
+for (( i = 0 ; i==0; ))
 do
     echo "To infinity and beyond"
     sleep 2
