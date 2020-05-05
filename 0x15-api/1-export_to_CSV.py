@@ -1,14 +1,7 @@
 #!/usr/bin/python3
-"""
-    Uses the fake API to get an employer and export the info in csv formater
+"""to export data in the CSV format."
 """
 import csv
-import requests
-from sys import argv
-
-#!/usr/bin/python3
-"""returns information about his/her TODO list progress."
-"""
 import requests
 from sys import argv
 
