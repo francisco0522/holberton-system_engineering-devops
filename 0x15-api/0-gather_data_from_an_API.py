@@ -6,8 +6,11 @@ from sys import argv
 
 if __name__ == "__main__":
     num_id = argv[1]
-    id_info = requests.get("https://jsonplaceholder.typicode.com/users/{}".format(num_id)).json()
-    all_task = requests.get("https://jsonplaceholder.typicode.com/users/{}/todos".format(num_id)).json()
+    id_info = requests.get("https://jsonplaceholder.typicode.com/users/{}"
+                           .format(num_id)).json()
+    all_task = requests.get(
+        "https://jsonplaceholder.typicode.com/users/{}/todos"
+        .format(num_id)).json()
     name_employee = id_info.get("name")
     total_num_task = 0
     done_task = 0
@@ -22,4 +25,3 @@ if __name__ == "__main__":
             title = tasks.get("title")
             output += "\n\t " + title
     print(output)
-    
