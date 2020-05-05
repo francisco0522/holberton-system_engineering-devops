@@ -6,12 +6,12 @@ import requests
 from sys import argv
 
 if __name__ == "__main__":
-    employ = "https://jsonplaceholder.typicode.com/users"
-    employs = requests.get(employ).json()
+    url_employ = "https://jsonplaceholder.typicode.com/users"
+    r_employs = requests.get(url_employ).json()
     report = {}
-    for employ in employs:
-        id_employee = employ.get("id")
-        url_todos = employs + "/{}/todos".format(id_employee)
+    for employ in r_employs:
+        id_em = employ.get("id")
+        url_todos = url_employ + "/{}/todos".format(id_em)
         r_todos = requests.get(url_todos).json()
         username = employ.get("username")
         total_num_task = r_todos
@@ -22,6 +22,6 @@ if __name__ == "__main__":
             id_report["completed"] = task.get("completed")
             id_report["task"] = str(task.get("title"))
             list_dict_report.append(id_report)
-        report[id_employee] = list_dict_report
+        report[id_em] = list_dict_report
     with open("todo_all_employees.json", "w") as fjson:
         fjson.write(json.dumps(report))
