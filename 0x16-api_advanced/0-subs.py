@@ -3,6 +3,7 @@
 import requests
 from sys import argv
 
+
 def number_of_subscribers(subreddit):
     url_redd = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {'user-agent': 'request'}
