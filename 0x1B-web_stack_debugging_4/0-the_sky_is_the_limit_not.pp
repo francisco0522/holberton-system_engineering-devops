@@ -1,3 +1,4 @@
+#comment"
 file { 'replace last line':
     ensure  => present,
     path    => '/etc/default/nginx',
