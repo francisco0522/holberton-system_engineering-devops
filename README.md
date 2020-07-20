@@ -37,7 +37,13 @@ This repository contains programs written for the system engineering and DevOps 
 
 **Francisco Londoño** <[francisco0522](https://github.com/francisco0522)>
 
-## Acknowledgements  🙏
+Software and Multimedia Engineer with high interest in areas of software development, mobile applications and Full stack development.
+
+https://www.linkedin.com/in/francisco-londoño/ 
+
+@pacho0522
+
+## Acknowledgements 🤝🏻
 
 All work contained in this project was completed as part of the curriculum for Holberton School. Holberton School is a campus-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit  [this link](https://www.holbertonschool.com/).
 [![Holberton School logo](https://camo.githubusercontent.com/04a8a9a456b8ecafad2eb4f2cff6803cd0194496/687474703a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2e706e67)](https://camo.githubusercontent.com/04a8a9a456b8ecafad2eb4f2cff6803cd0194496/687474703a2f2f7777772e686f6c626572746f6e7363686f6f6c2e636f6d2f686f6c626572746f6e2d6c6f676f2e706e67)
